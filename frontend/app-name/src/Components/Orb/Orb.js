@@ -27,6 +27,7 @@ function Orb(props) {
     background: linear-gradient(180deg, #f56692 0%, #f2994a 100%);
     filter: blur(200px);
     animation: ${moveOrb} 15s alternate linear infinite;
+    z-index: 1;
   `;
 
   return <OrbStyled />;
